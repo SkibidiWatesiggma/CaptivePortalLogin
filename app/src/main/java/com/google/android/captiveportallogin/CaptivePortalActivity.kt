@@ -18,6 +18,7 @@ val webView = WebView(this)
 webView.webViewClient = WebViewClient()
 
 webView.settings.javaScriptEnabled = true
+webView.settings.allowFileAccess = false
 
 setContentView(webView)
 
